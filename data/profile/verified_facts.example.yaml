@@ -1,0 +1,57 @@
+# Keep the real file private if it contains personal data.
+# Recommended local path: data/private/verified_facts.yaml
+
+candidate:
+  name: "Paras Navadiya"
+
+allowed_tailoring:
+  - reorder_verified_skills
+  - rewrite_verified_bullets
+  - emphasize_relevant_verified_experience
+  - select_relevant_projects
+  - adapt_summary_to_target_role
+
+never_invent:
+  - employers
+  - job_titles
+  - employment_dates
+  - education
+  - certifications
+  - technologies
+  - metrics
+  - achievements
+  - compensation
+  - work_authorization
+
+role_families:
+  product_manager:
+    priorities:
+      - product_strategy
+      - roadmap
+      - discovery
+      - analytics
+      - stakeholder_management
+      - growth
+  product_owner_business_analyst:
+    priorities:
+      - requirements
+      - user_stories
+      - acceptance_criteria
+      - backlog
+      - agile
+      - UAT
+  technical_product_manager:
+    priorities:
+      - mobile
+      - APIs
+      - cloud
+      - AI_integration
+      - architecture
+      - engineering_collaboration
+  mobile_engineering:
+    priorities:
+      - iOS
+      - Android
+      - mobile_architecture
+      - APIs
+      - performance
