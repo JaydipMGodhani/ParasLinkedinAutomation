@@ -1,0 +1,30 @@
+# Project Paras search profile.
+# Map these concepts to the exact fields used by the upstream job-applier project.
+
+positions:
+  - Product Manager
+  - Product Owner
+  - Technical Product Manager
+  - Mobile Product Manager
+  - Senior Product Manager
+  - Digital Product Manager
+  - Business Analyst
+  - Senior Business Analyst
+
+work_modes:
+  remote: true
+  hybrid: true
+  onsite: false
+
+experience_levels:
+  mid_senior_level: true
+
+# Start with one geography per run so market statistics remain meaningful.
+locations:
+  - India
+
+strategy:
+  collect_only: true
+  easy_apply_only: true
+  relevance_threshold: 80
+  max_applications_per_run: 5
