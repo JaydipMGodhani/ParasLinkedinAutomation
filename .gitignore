@@ -1,0 +1,22 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Personal/private career data
+data/private/
+data/resumes/generated_resumes/
+data/output/
+*.pdf
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# IDE / OS
+.DS_Store
+.vscode/
+.idea/
