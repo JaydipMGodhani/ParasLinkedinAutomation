@@ -1,0 +1,48 @@
+positions:
+  - Product Manager
+  - Product Owner
+  - Technical Product Manager
+  - Mobile Product Manager
+  - Senior Product Manager
+  - Digital Product Manager
+  - Business Analyst
+  - Senior Business Analyst
+
+remote: true
+hybrid: true
+onsite: false
+
+experience_level:
+  internship: false
+  entry: false
+  associate: false
+  mid_senior_level: true
+  director: false
+  executive: false
+
+job_types:
+  full_time: true
+  contract: true
+  part_time: false
+  temporary: false
+  volunteer: false
+  internship: false
+  other: false
+
+date:
+  all_time: false
+  month: false
+  week: true
+  24_hours: false
+
+locations:
+  - India
+
+apply_once_at_company: true
+
+company_blacklist: []
+title_blacklist:
+  - Intern
+  - Internship
+  - Junior
+location_blacklist: []
